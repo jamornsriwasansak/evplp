@@ -1,5 +1,7 @@
 # Efficient Energy-Compensated VPLs using Photon Splatting
 
+<img src="readme-resources/paperimage.jpg"/>
+
 Jamorn Sriwasansak<sup>1</sup>, Adrien Gruson<sup>1,2</sup>, Toshiya Hachisuka<sup>1</sup>
 
 <sup>1</sup>The University of Tokyo <sup>2</sup>JFLI, CNRS, UMI 3527
