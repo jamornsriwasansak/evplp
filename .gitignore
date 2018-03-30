@@ -85,9 +85,6 @@ ipch/
 *.ptx
 *.pfm
 *.ppm
-*.png
-*.bmp
-*.jpg
 build/
 /.idea/
 /cmake-build-debug/
