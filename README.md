@@ -31,7 +31,7 @@ and their progressive variants
 
 (We had already included the libraries listed in 5 - 10 in the folder "dependencies".)
 
-<img src="readme-resources/main-image.png"/>
+<img src="readme-resources/main_image.jpg"/>
 
 ## Acknowledgement
 Along with the source code we also include 3 scenes (the conference, the living room, and the buddha) that were used in the paper for analysis. 
