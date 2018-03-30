@@ -15,7 +15,7 @@ image space photon mapping" [3])
 and their progressive variants
 1. Progressive VPL [4]
 2. Progressive VSL [5]
-3. Progressive Photon Mapping [6,7,8]
+3. Progressive Photon Mapping [6]
 
 ## Requirements
 1. Microsoft Visual Studio 2015
@@ -61,12 +61,5 @@ for GPU. In ACM SIGGRAPH 2012 Talks. ACM, 1.
 Progressive virtual beam lights. In Computer Graphics Forum, Vol. 31. Wiley Online
 Library, 1407–1413.
 
-[6] Toshiya Hachisuka, Shinji Ogaki, and Henrik Wann Jensen. 2008. Progressive photon
-mapping. ACM Transactions on Graphics (TOG) 27, 5 (2008), 130.
-
-[7] Toshiya Hachisuka and Henrik Wann Jensen. 2009. Stochastic Progressive Photon
-Mapping. ACM Trans. Graph. 28, 5, Article 141 (Dec. 2009), 8 pages. https://doi.
-org/10.1145/1618452.1618487
-
-[8] Claude Knaus and Matthias Zwicker. 2011. Progressive photon mapping: A probabilistic
+[6] Claude Knaus and Matthias Zwicker. 2011. Progressive photon mapping: A probabilistic
 approach. ACM Transactions on Graphics (TOG) 30, 3 (2011), 25.
