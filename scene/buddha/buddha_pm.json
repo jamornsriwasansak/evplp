@@ -1,0 +1,53 @@
+{
+    "resX": 1280,
+    "resY": 720,
+    "scene": [
+        "buddha_exported.obj"
+    ],
+    "arealight": {
+        "obj": "buddha_exported_lights.obj",
+        "intensity": [
+            80.0,
+            70.0,
+            20.0,
+            50
+        ]
+    },
+    "camera": {
+        "origin": [
+            -1.4,
+            -3.88,
+            0.10616
+        ],
+        "direction": [
+            -0.646,
+            -0.56,
+            -0.168
+        ],
+        "up": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "fovx": 85.0
+    },
+    "photonfam": {
+        "rngOffset": 0,
+        "numMaxIteration": -1,
+        "timeLimitMs": 15000.0,
+        "frameMode": "accumulate",
+        "renderMode": "pm",
+        "misMode": "one",
+        "combinedFilename": "C://result/buddha/3_pm.pfm",
+        "weightedPhotonFilename": "C://result/none.pfm",
+        "weightedVplFilename": "C://result/none.pfm",
+        "statFilename": "test.json",
+        "useJitter": true,
+        "useStat": false,
+        "numLightPaths": 300000,
+        "numVplLightPaths": 0,
+        "numMaxBounces": 3,
+        "radiusPercentage": 0.003,
+        "DoProgressive": false
+    }
+}

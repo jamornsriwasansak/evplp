@@ -1,0 +1,48 @@
+{
+    "resX": 1280,
+    "resY": 720,
+    "scene": [
+        "livingroom_exported.obj"
+    ],
+    "arealight": {
+        "obj": "livingroom_exported_lights.obj",
+        "intensity": [
+            68.0,
+            48.0,
+            16.0,
+            0
+        ]
+    },
+    "camera": {
+        "origin": [
+            0.34,
+            -1.644,
+            1.22
+        ],
+        "direction": [
+            0.12,
+            3.25,
+            0.8957
+        ],
+        "up": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "fovx": 71.0
+    },
+    "pt": {
+        "rngOffset": 0,
+        "numMaxIteration": -1,
+        "timeLimitMs": 15000.0,
+        "frameMode": "accumulate",
+        "outputFilename": "C://result/livingroom/2_pt.pfm",
+        "statFilename": "test.json",
+        "useJitter": true,
+        "useStat": false,
+        "numSamplePerPixel": 1,
+        "numMaxBounces": 3,
+        "DoProgressive": false,
+        "AlphaProgressive": 0.7
+    }
+}
