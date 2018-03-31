@@ -18,15 +18,60 @@
     <title>Jamorn Sriwasansak</title>
   </head>
   <body>
-    <div class="content">
+    <!-- top bar -->
+    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable top-bar">
+      <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="http://jamorn.me" class="pure-menu-link">J A M O R N . M E <a></li>
+
+        <li class="pure-menu-item">
+          <div class="outside-button-group">
+            <a id="github-button" class="pure-button" href="https://www.github.com/zentojamorn" type="button" name="button"> <span class="icon-github icon"></span></a>
+            <a id="linkedin-button" class="pure-button" href="https://www.linkedin.com/in/jamorn-sriwasansak-8055207a" type="button" name="button"> <span class="icon-linkedin icon"></span></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="proj content">
       <h2>Efficient Energy-Compensated VPLs using Photon Splatting</h2>
-      <div class="pure-u-1 pure-u-md-4-24">
-        <img class="pure-img" src="/pics/energy-compensated-vpl.jpg" />
-      </div>
       <ul>
         <li><a href="http://jamorn.me">Jamorn Sriwasansak</a></li>
         <li><a href="https://beltegeuse.github.io/research/">Adrien Gruson</a></li>
         <li><a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></li>
+      </ul>
+      <h5>ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games 2018</h5>
+      <img class="pure-img" src="teaser.jpg" />
+      <h3>Abstract</h3>
+      <p>
+        Efficient light transport simulation is important for many applications
+        in computer graphics. Many-light methods based on virtual
+        point lights (VPLs) especially work well for scenes consist mainly of
+        diffuse materials. Rendered images with VPLs, however, are known
+        to suffer from energy loss due to clamping of the VPL contributions.
+        Removing this clamping unfortunately introduces significant
+        variance in images due to the singularities of VPLs. We propose an
+        efficient and practical algorithm which compensates energy loss
+        of VPLs using yet another efficient rendering method – photon
+        splatting. Recent unified path sampling frameworks shows that
+        VPLs are in fact photons. Based on this unified formulation, we
+        propose to reuse VPLs as photons to compensate missing energy of
+        clamped VPLs. This combination is very natural: the singularities of
+        VPLs happen if a shading point is too close to VPLs, but such VPLs
+        can also be seen as neighboring photons that are indeed useful for
+        photon density estimation.We formulate this energy compensation
+        process using multiple importance sampling to optimally combine
+        rendering with VPLs and photon splatting. Our algorithm can be
+        efficiently implemented on GPUs since rendering with VPLs and 
+        photon splatting are both suitable for GPUs. The results demonstrate
+        that our method produces more accurate images in the same
+        rendering time than the existing methods. For common use cases
+        of rendering mostly diffuse scenes, our work leads to an efficient,
+        accurate, and practical rendering algorithm based on VPLs.
+      </p>
+      <ul>
+        <li><a href="/evplp/paper.pdf" class="pub-paper">Paper</a></li>
+        <li><a href="https://github.com/zentojamorn/evplp" class="pub-code">Code</a></li>
+        <span class="film icon"/>
       </ul>
     </div>
   </body>
