@@ -22,7 +22,7 @@ and their progressive variants
 ## Requirements
 1. Microsoft Visual Studio 2015
 2. CUDA version 8
-3. Optix SDK version >= 4.1.1
+3. Optix SDK version 4.1.1
 4. OpenGL version >= 4.5
 5. Assimp 
 6. GLEW
