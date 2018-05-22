@@ -1,0 +1,151 @@
+html, button, input, select, textarea, p,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #555;
+}
+
+.pure-g > div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#profile-pic {
+  padding-right: 10px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.outside-button-group {
+  margin-left: 20px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.top-bar {
+  box-shadow: 0px 0px 7px #ABABAB;
+  padding: 0px !important;
+}
+
+#github-button {
+  color: white;
+  background-color: black;
+}
+
+#linkedin-button {
+  color: white;
+  background-color: #0077B5;
+}
+
+.pub {
+  border-style: solid;
+  border-bottom: none;
+  border-width: 0.1px;
+  border-color: lightgrey;
+}
+
+.pub:last-child {
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: lightgrey;
+}
+
+.pub-content {
+  padding-left: 1em;
+  padding-right: 2em;
+}
+
+.pub-content ul {
+  padding: 0em;
+  overflow: hidden;
+}
+
+.pub-content ul li {
+  display: inline-block;
+}
+
+.pub-content ul li {
+  padding-right: 0.6em;
+}
+
+.pub-content ul li a:before {
+  padding-right: 0.3em;
+}
+
+.pub-proj:before {
+  content: '\e900';
+  font-family: 'icomoon';
+  speak: none;
+}
+
+.pub-paper:before {
+  content: '\eadf';
+  font-family: 'icomoon';
+  speak: none;
+}
+
+.pub-code-github:before {
+  content: '\eab0';
+  font-family: 'icomoon';
+  speak: none;
+}
+
+.pub-code:before {
+  content: '\ea80';
+  font-family: 'icomoon';
+  speak: none;
+}
+
+.pub-video:before {
+  content: '\e913';
+  font-family: 'icomoon';
+  speak: none;
+}
+
+.pub-video-youtube:before {
+  content: '\e912';
+  font-family: 'icomoon';
+  speak: none;
+}
+
+.proj h2, .proj h3, .proj h4, .proj h5, .proj ul{
+  text-align: center
+}
+
+.proj ul {
+  padding: 0em;
+  overflow: hidden;
+}
+
+.proj ul li {
+  display: inline-block;
+}
+
+.proj ul li {
+  padding-right: 0.6em;
+}
+
+.proj ul li a:before {
+  padding-right: 0.3em;
+}
+
+.proj img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proj p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
