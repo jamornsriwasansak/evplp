@@ -22,7 +22,7 @@ and their progressive variants
 2. CUDA version 8
 3. Optix SDK version 4.1.1
 4. OpenGL version >= 4.5
-5. Assimp 
+5. Assimp version 3.3.0
 6. GLEW
 7. GLFW
 8. GLM
