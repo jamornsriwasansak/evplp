@@ -39,7 +39,7 @@ Along with the source code we also include 3 scenes (the conference, the living 
 We thus would like to acknowledge Anat Grynberg and Greg Ward (the conference room), Stanford Computer Graphics Laboratory (happy buddha), blendswap.com artists "cenobi"(the living room).
 
 ## License
-This rendering framework is released under the MIT license.
+Please see LICENSE file for more information.
 
 ## Reference
 [1] Alexander Keller. 1997. Instant radiosity. In Proceedings of the 24th annual conference
